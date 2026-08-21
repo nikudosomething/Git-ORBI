@@ -7,6 +7,12 @@
     font-family: "Jost", sans-serif ,"Noto Sans TC", sans-serif;
     line-height: 1.5;
 }
+h1{
+    color: #6D5A78;
+}
+p{
+    color: #302B31;
+}
 /* 導覽列 */
 .navbar {
     display: flex;
@@ -47,7 +53,7 @@
 
 /* HERO */
 .Hero {
-    padding: 64px 20px 20px 20px;
+    padding: 64px 20px 64px 20px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -91,7 +97,34 @@
     background-color: #6D5A78;
     color: #fff;
 }
-
+/* About */
+#About {
+    text-align: center;
+}
+.aboutwhy{
+    display: flex;
+    gap: 24px;
+    padding: 64px 20px 64px 20px;
+}
+.aboutwhy i{
+    font-size: 48px;
+    color: #6D5A78;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EDE5F2;
+}
 /* 平板 */
 @media screen and (min-width: 769px) {
 .nav-menu{
@@ -125,8 +158,24 @@
     flex-direction: row;
     align-items: center;
 }
-
-
+/* About */
+#About{
+    max-width: 1200px;
+    padding: 0px 0px 64px 0px;
+    margin: auto;
+}
+.about-text{
+    padding:20px;
+}
+.aboutwhy{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #E5E5E5;
+    max-width: 1200px;
+    padding: 64px 120px;
+    margin: auto;
+}
 }
 /* 電腦 */
 @media screen and (min-width: 1200px) {
